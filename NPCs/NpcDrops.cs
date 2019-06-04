@@ -17,7 +17,7 @@ namespace DataMod.NPCs
                     for (int k = 0; k < (int)((double)(Main.maxTilesX * Main.maxTilesY) * 6E-05); k++)   //40E-05 is how many veins ore is going to spawn , change 40 to a lover value if you want less vains ore or higher value for more veins ore
                     {
                         int x = WorldGen.genRand.Next(0, Main.maxTilesX);
-                        int y = WorldGen.genRand.Next((int)WorldGen.rockLayer, Main.maxTilesY); //this is the coordinates where the veins ore will spawn, so in Cavern layer
+                        int y = WorldGen.genRand.Next((int)WorldGen.rockLayer, Main.maxTilesY - 200); //this is the coordinates where the veins ore will spawn, so in Cavern layer
                         WorldGen.TileRunner(x, y, (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 6), mod.TileType("DatapodOre"), false, 0f, 0f, false, true);
                     }
                 }
