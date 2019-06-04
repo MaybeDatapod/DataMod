@@ -15,7 +15,6 @@ namespace DataMod
 	{
 		private const int saveVersion = 0;
 		public static bool downedDataboss = false;
-		public static bool spawnOre = false;
 		public override void Initialize()
 		{
 			downedDataboss = false;
