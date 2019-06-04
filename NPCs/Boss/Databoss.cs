@@ -99,7 +99,7 @@ namespace DataMod.NPCs.Boss
             if (npc.ai[0] % 600 == 3)  //Npc spown rate
  
             {
-                NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, mod.NPCType("NpcName"));  //NPC name
+                NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, mod.NPCType("Datapod"));  //NPC name
             }
             npc.ai[1] += 0;
             if (npc.life <= 20000) { //when the boss has less than 70 health he will do the charge attack
