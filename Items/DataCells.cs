@@ -15,7 +15,7 @@ namespace DataMod.Items
         {
             item.width = 20;
             item.height = 20;
-            item.maxStack = 99;
+            item.maxStack = 999;
             item.value = 100;
             item.rare = 1;
         }
