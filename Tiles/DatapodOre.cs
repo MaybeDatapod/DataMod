@@ -23,7 +23,7 @@ namespace DataMod.Tiles
 			soundType = 21;
 			soundStyle = 1;
 			mineResist = 4f;
-			minPick = 190;
+			minPick = 180;
         }
       
         public override void ModifyLight(int i, int j, ref float r, ref float g, ref float b)   //light colors
