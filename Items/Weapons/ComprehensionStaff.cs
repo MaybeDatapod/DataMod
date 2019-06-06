@@ -15,7 +15,7 @@ namespace DataMod.Items.Weapons
 
 		public override void SetDefaults()
 		{
-			item.damage = 60;
+			item.damage = 57;
 			item.summon = true;
 			item.mana = 10;
 			item.width = 32;

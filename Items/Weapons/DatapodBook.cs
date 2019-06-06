@@ -14,7 +14,7 @@ namespace DataMod.Items.Weapons
 		}
         public override void SetDefaults()
         {      
-            item.damage = 139;                        
+            item.damage = 123;                        
             item.magic = true;
             item.width = 28;
             item.height = 30;
