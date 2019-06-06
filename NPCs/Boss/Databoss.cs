@@ -69,7 +69,6 @@ namespace DataMod.NPCs.Boss
 				{
 					Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("ComprehensionStaff"), 1);
 				}
-			Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("DataCellChargerItem"), 1);
 			Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("DataCells"), Main.rand.Next(15, 25));
 			Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("Databomb"), Main.rand.Next(15, 25));
 			Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("SoulofWrite"), Main.rand.Next(20, 40));
