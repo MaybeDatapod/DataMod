@@ -1,6 +1,10 @@
 A fun mod about the one and only Datapod!
 Adds 11 items, 4 weapons, 1 new enemy and 1 new boss, but I will add more fun things in the future so stay tuned
 
+v0.2.1
+Changes:
+-Dumb bug fixes that nobody cares about
+
 v0.2.0
 Additions:
 -The all new Datapod Ore now spawns after killing Databoss
@@ -10,7 +14,6 @@ Other Changes:
 -Databoss no longer drops the Data Cell Charger, now it is crafted with Datapod Bars, Data Cells, Wires, and each mech boss soul (including Souls of Write)
 -All Databoss weapons have been nerfed slightly
 -Databoss now spawns Datapods to attack you during the fight
-
 
 v0.1.0
 Additions:
