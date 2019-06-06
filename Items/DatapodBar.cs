@@ -22,6 +22,7 @@ namespace DataMod.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(mod.ItemType("DatapodOre"), 4);
+			recipe.AddIngredient(mod.ItemType("DataCells"), 1);
 			recipe.AddTile(TileID.Hellforge);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

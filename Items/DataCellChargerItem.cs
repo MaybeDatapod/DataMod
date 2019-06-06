@@ -28,5 +28,19 @@ namespace DataMod.Items      //We need this to basically indicate the folder whe
             item.value = Item.buyPrice(0, 50, 0, 0); // How much the item is worth, in copper coins, when you sell it to a merchant. It costs 1/5th of this to buy it back from them. An easy way to remember the value is platinum, gold, silver, copper or PPGGSSCC (so this item price is 10gold)
             item.createTile = mod.TileType("DataCellCharger");  //This defines what type of tile this item will place   
         }
+		public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(mod.ItemType("DatapodBar"), 15);
+            recipe.AddIngredient(mod.ItemType("DataCells"), 30);
+			recipe.AddIngredient(ItemID.Wire, 10);
+			recipe.AddIngredient(ItemID.SoulofSight, 5);
+			recipe.AddIngredient(ItemID.SoulofMight, 5);
+			recipe.AddIngredient(ItemID.SoulofFright, 5);
+			recipe.AddIngredient(mod.ItemType("SoulofWrite"), 5);
+			recipe.AddTile(TileID.MythrilAnvil);
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+        }
     }
 }
