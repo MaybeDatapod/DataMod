@@ -1,9 +1,15 @@
 A fun mod about the one and only Datapod!
 Adds 11 items, 4 weapons, 1 new enemy and 1 new boss, but I will add more fun things in the future so stay tuned
 
+v0.2.2
+Changes:
+-Suspicious Looking Statistics and Supercharged Statistics can no longer be used during the day
+-Data Blaster now has a slight spread
+-Databombs now destroy tiles and create a large explosion
+
 v0.2.1
 Changes:
--Dumb bug fixes that nobody cares about
+-Dumb bug fixes that nobody cares about (I don't even remember most of what I changed honestly)
 
 v0.2.0
 Additions:

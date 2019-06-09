@@ -1,6 +1,7 @@
 displayName = DataMod
 author = Datapod
-version = 0.2.1
+version = 0.2.2
+homepage = https://forums.terraria.org/index.php?threads/datamod.80178/
 hideCode = true
 hideResources = true
 includeSource = false
