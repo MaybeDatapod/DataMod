@@ -25,8 +25,7 @@ namespace DataMod.Items
         }
         public override bool CanUseItem(Player player)
         {           
-            return !NPC.AnyNPCs(mod.NPCType("Databoss"));  //you can't spawn this boss multiple times
-            return !Main.dayTime;   //can use only at night
+            return !NPC.AnyNPCs(mod.NPCType("Databoss")) && !Main.dayTime;  //you can't spawn this boss multiple times
         }
         public override bool UseItem(Player player)
         {
