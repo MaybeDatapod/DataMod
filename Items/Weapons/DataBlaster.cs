@@ -7,6 +7,7 @@ namespace DataMod.Items.Weapons
 {
     public class DataBlaster : ModItem
     {
+	int shot = 0;
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Data Blaster");
@@ -15,8 +16,8 @@ namespace DataMod.Items.Weapons
         {
             item.damage = 29;
             item.ranged = true;
-            item.width = 44;
-            item.height = 17;
+            item.width = 88;
+            item.height = 34;
             item.useTime = 5;
             item.useAnimation = 5;
             item.useStyle = 5;
@@ -33,6 +34,17 @@ namespace DataMod.Items.Weapons
 		public override Vector2? HoldoutOffset()
 		{
 			return new Vector2(-16, 0);
+		}
+		public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
+		{
+			shot++;
+			if (shot == 4) {
+				shot = 0;
+			}
+			Vector2 perturbedSpeed = new Vector2(speedX, speedY).RotatedBy(MathHelper.ToRadians(-3+(shot*2)));
+			speedX = perturbedSpeed.X;
+			speedY = perturbedSpeed.Y;
+			return true;
 		}
     }
 }
